@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Draenaii</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Thijmen</span><br> Project Coordinator</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <!-- LinkedIn Button -->
+                    <a href="https://www.linkedin.com/in/thijmen-van-der-meijden/" target="_blank" class="home__social-icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+            
+                    <!-- GitHub Button -->
+                    <a href="https://github.com/Draenaii/" target="_blank" class="home__social-icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="60" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Thijmen</h2>
+                        <p class="about__text">
+                            I’m <strong>Thijmen van der Meijden</strong>, a Project Coordinator at <span class="highlight">Watergames and More</span> with a background in Artificial Intelligence from Utrecht University. I enjoy turning ideas into reality through problem-solving, project management, and technology.
+                        </p>
+                        
+                        <p class="about__text">
+                            Outside of work, I’m passionate about sports, gaming, and electronics. I also value giving back and volunteer as a plasma and stem cell donor, as well as a trained first responder.
+                        </p>
+                        
+                        <p class="about__text">
+                            My experiences across tech, energy, and business operations have shaped my approach to efficiency and teamwork. In my role as Project Coordinator, I focus on planning, executing, and optimizing projects that drive impact.
+                        </p>
+                                   
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+            
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">
+                            With a background in <strong>Artificial Intelligence</strong> and experience in <strong>project coordination</strong> and the <strong>energy market</strong>, I have developed a strong technical and analytical skill set. Below are some of the key areas I specialize in:
+                        </p>
+            
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-python skills__icon"></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python"></div>
+                            <div><span class="skills__percentage">90%</span></div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-solid fa-code skills__icon"></i>  
+                                <span class="skills__name">C#</span>
+                            </div>
+                            <div class="skills__bar skills__csharp"></div>
+                            <div><span class="skills__percentage">85%</span></div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-line-chart skills__icon'></i>
+                                <span class="skills__name">R</span>
+                            </div>
+                            <div class="skills__bar skills__r"></div>
+                            <div><span class="skills__percentage">60%</span></div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">Front-End</span>
+                            </div>
+                            <div class="skills__bar skills__frontend"></div>
+                            <div><span class="skills__percentage">40%</span></div>
+                        </div>
+            
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-network-chart skills__icon'></i>
+                                <span class="skills__name">Project Coordination</span>
+                            </div>
+                            <div class="skills__bar skills__project-coordination"></div>
+                            <div><span class="skills__percentage">90%</span></div>
+                        </div>
+            
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="Working on a laptop" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+            
+                <div class="work__container bd-grid">
+                    <a href="#" class="work__img" data-id="1">
+                        <img src="assets/img/bsc_degree.jpg" alt="Bachelor’s Degree in AI">
+                    </a>
+                    <a href="#" class="work__img" data-id="2">
+                        <img src="assets/img/energy.jpg" alt="Energy Supplier Settlements Innova Energie">
+                    </a>
+                    <a href="#" class="work__img" data-id="3">
+                        <img src="assets/img/mendix.jpg" alt="'Internship' at Mendix">
+                    </a>
+                    <a href="#" class="work__img" data-id="4">
+                        <img src="assets/img/analytics.jpg" alt="Predictive Analytics with Python & R">
+                    </a>
+                    <a href="#" class="work__img" data-id="5">
+                        <img src="assets/img/game_server.jpg" alt="Game Server Management">
+                    </a>
+                    <a href="#" class="work__img" data-id="6">
+                        <img src="assets/img/study_abroad.jpg" alt="Studying Abroad (Binghamton University)">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== MODAL =====-->
+            <div id="workModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-title">Project Title</h2>
+                    <img id="modal-image" src="" alt="Project Image">
+                    <p id="modal-description">Project description goes here...</p>
+                </div>
+            </div>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form id="contact-form" class="contact__form">
+                        <div class="contact__group">
+                            <label for="name"><i class="fa-solid fa-user contact__icon"></i> Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" class="contact__input" required>
+                        </div>
+                    
+                        <div class="contact__group">
+                            <label for="email"><i class="fa-solid fa-envelope contact__icon"></i> Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" class="contact__input" required>
+                        </div>
+                    
+                        <div class="contact__group">
+                            <label for="message"><i class="fa-solid fa-message contact__icon"></i> Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here..." class="contact__input" rows="6" required></textarea>
+                        </div>
+                    
+                        <button type="submit" class="contact__button">Send Message</button>
+                        <p id="form-status" class="form-status"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Draenaii</p>
+            <p class="footer__copy">&#169; Draenaii. All rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
